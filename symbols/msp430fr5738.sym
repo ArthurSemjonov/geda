@@ -1,0 +1,328 @@
+v 20060123 1
+B 300 300 7500 6000 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 7800 6400 9 10 0 0 0 0 1
+footprint=24TSSOP
+T 7800 6600 9 10 0 0 0 0 1
+description=mcu
+T 7800 6800 9 10 0 0 0 0 1
+device=msp430fr5738
+T 7800 7000 9 10 0 0 0 0 1
+distlicense=GPL
+T 7800 7200 9 10 0 0 0 0 1
+uselicense=unlimited
+T 7800 7400 9 10 0 0 0 0 1
+author=Andrew Orr
+T 7800 7600 9 10 0 0 0 0 1
+copryright=2012 Andrew Orr
+T 4100 5700 9 10 1 1 0 3 1
+MSP430FR5738
+T 4100 5300 9 10 1 1 0 3 1
+refdes=U?
+P 0 5900 300 5900 1 0 0
+{
+T 350 5900 9 10 1 1 0 1 1
+pinlabel=PJ.4/XIN
+T 200 5950 5 8 1 1 0 6 1
+pinnumber=1
+T 200 5950 5 8 0 1 0 6 1
+pinseq=1
+T 200 5950 9 10 0 1 0 6 1
+pintype=pas
+}
+P 0 5500 300 5500 1 0 0
+{
+T 350 5500 9 10 1 1 0 1 1
+pinlabel=PJ.5/XOUT
+T 200 5550 5 8 1 1 0 6 1
+pinnumber=2
+T 200 5550 5 8 0 1 0 6 1
+pinseq=2
+T 200 5550 9 10 0 1 0 6 1
+pintype=pas
+}
+P 0 5100 300 5100 1 0 0
+{
+T 350 5100 9 10 1 1 0 1 1
+pinlabel=AVSS
+T 200 5150 5 8 1 1 0 6 1
+pinnumber=3
+T 200 5150 5 8 0 1 0 6 1
+pinseq=3
+T 200 5150 9 10 0 1 0 6 1
+pintype=pas
+}
+P 0 4700 300 4700 1 0 0
+{
+T 350 4700 9 10 1 1 0 1 1
+pinlabel=AVCC
+T 200 4750 5 8 1 1 0 6 1
+pinnumber=4
+T 200 4750 5 8 0 1 0 6 1
+pinseq=4
+T 200 4750 9 10 0 1 0 6 1
+pintype=pas
+}
+P 0 4300 300 4300 1 0 0
+{
+T 350 4300 9 10 1 1 0 1 1
+pinlabel=P1.0/TA0.1/DMAE0/RTCCLK/A0/CD0/VeREF-
+T 200 4350 5 8 1 1 0 6 1
+pinnumber=5
+T 200 4350 5 8 0 1 0 6 1
+pinseq=5
+T 200 4350 9 10 0 1 0 6 1
+pintype=pas
+}
+P 0 3900 300 3900 1 0 0
+{
+T 350 3900 9 10 1 1 0 1 1
+pinlabel=P1.1/TA1CLK/CDOUT/A1/CD1/VeREF+
+T 200 3950 5 8 1 1 0 6 1
+pinnumber=6
+T 200 3950 5 8 0 1 0 6 1
+pinseq=6
+T 200 3950 9 10 0 1 0 6 1
+pintype=pas
+}
+P 0 3500 300 3500 1 0 0
+{
+T 350 3500 9 10 1 1 0 1 1
+pinlabel=P1.2/TA1.1/TA0CLK/CDOUT/A2/CD2
+T 200 3550 5 8 1 1 0 6 1
+pinnumber=7
+T 200 3550 5 8 0 1 0 6 1
+pinseq=7
+T 200 3550 9 10 0 1 0 6 1
+pintype=pas
+}
+P 0 3100 300 3100 1 0 0
+{
+T 350 3100 9 10 1 1 0 1 1
+pinlabel=P1.3/TA1.2/UCB0STE/A3/CD3
+T 200 3150 5 8 1 1 0 6 1
+pinnumber=8
+T 200 3150 5 8 0 1 0 6 1
+pinseq=8
+T 200 3150 9 10 0 1 0 6 1
+pintype=pas
+}
+P 0 2700 300 2700 1 0 0
+{
+T 350 2700 9 10 1 1 0 1 1
+pinlabel=P1.4/TB0.1/UCA0STE/A4/CD4
+T 200 2750 5 8 1 1 0 6 1
+pinnumber=9
+T 200 2750 5 8 0 1 0 6 1
+pinseq=9
+T 200 2750 9 10 0 1 0 6 1
+pintype=pas
+}
+P 0 2300 300 2300 1 0 0
+{
+T 350 2300 9 10 1 1 0 1 1
+pinlabel=P1.5/TB0.2/UCA0CLK/A5/CD5
+T 200 2350 5 8 1 1 0 6 1
+pinnumber=10
+T 200 2350 5 8 0 1 0 6 1
+pinseq=10
+T 200 2350 9 10 0 1 0 6 1
+pintype=pas
+}
+P 0 1900 300 1900 1 0 0
+{
+T 350 1900 9 10 1 1 0 1 1
+pinlabel=PJ.0/TDO/TB0OUTH/SMCLK/CD6
+T 200 1950 5 8 1 1 0 6 1
+pinnumber=11
+T 200 1950 5 8 0 1 0 6 1
+pinseq=11
+T 200 1950 9 10 0 1 0 6 1
+pintype=pas
+}
+P 0 1500 300 1500 1 0 0
+{
+T 350 1500 9 10 1 1 0 1 1
+pinlabel=PJ.1/TDI/TCLK/MCLK/CD7
+T 200 1550 5 8 1 1 0 6 1
+pinnumber=12
+T 200 1550 5 8 0 1 0 6 1
+pinseq=12
+T 200 1550 9 10 0 1 0 6 1
+pintype=pas
+}
+P 0 1100 300 1100 1 0 0
+{
+T 350 1100 9 10 1 1 0 1 1
+pinlabel=PJ.2/TMS/ACLK/CD8
+T 200 1150 5 8 1 1 0 6 1
+pinnumber=13
+T 200 1150 5 8 0 1 0 6 1
+pinseq=13
+T 200 1150 9 10 0 1 0 6 1
+pintype=pas
+}
+P 0 700 300 700 1 0 0
+{
+T 350 700 9 10 1 1 0 1 1
+pinlabel=PJ.3/TCK/CD9
+T 200 750 5 8 1 1 0 6 1
+pinnumber=14
+T 200 750 5 8 0 1 0 6 1
+pinseq=14
+T 200 750 9 10 0 1 0 6 1
+pintype=pas
+}
+P 8100 700 7800 700 1 0 0
+{
+T 7750 700 9 10 1 1 0 7 1
+pinlabel=P2.5/TB0.0
+T 7900 750 5 8 1 1 0 0 1
+pinnumber=15
+T 7900 750 5 8 0 1 0 0 1
+pinseq=15
+T 7700 750 9 10 0 1 0 6 1
+pintype=pas
+}
+P 8100 1100 7800 1100 1 0 0
+{
+T 7750 1100 9 10 1 1 0 7 1
+pinlabel=P2.6
+T 7900 1150 5 8 1 1 0 0 1
+pinnumber=16
+T 7900 1150 5 8 0 1 0 0 1
+pinseq=16
+T 7700 1150 9 10 0 1 0 6 1
+pintype=pas
+}
+P 8100 1500 7800 1500 1 0 0
+{
+T 7750 1500 9 10 1 1 0 7 1
+pinlabel=TEST/SBWTCK
+T 7900 1550 5 8 1 1 0 0 1
+pinnumber=17
+T 7900 1550 5 8 0 1 0 0 1
+pinseq=17
+T 7700 1550 9 10 0 1 0 6 1
+pintype=pas
+}
+P 8100 1900 7800 1900 1 0 0
+{
+T 7750 1900 9 10 1 1 0 7 1
+pinlabel=RST/NMI/SBWTDIO
+T 7900 1950 5 8 1 1 0 0 1
+pinnumber=18
+T 7900 1950 5 8 0 1 0 0 1
+pinseq=18
+T 7700 1950 9 10 0 1 0 6 1
+pintype=pas
+}
+P 8100 2300 7800 2300 1 0 0
+{
+T 7750 2300 9 10 1 1 0 7 1
+pinlabel=P2.0/UCA0TXD/UCA0SIMO/TB0CLK/ACLK
+T 7900 2350 5 8 1 1 0 0 1
+pinnumber=19
+T 7900 2350 5 8 0 1 0 0 1
+pinseq=19
+T 7700 2350 9 10 0 1 0 6 1
+pintype=pas
+}
+P 8100 2700 7800 2700 1 0 0
+{
+T 7750 2700 9 10 1 1 0 7 1
+pinlabel=P2.1/UCA0RXD/UCA0SOMI/TB0.0
+T 7900 2750 5 8 1 1 0 0 1
+pinnumber=20
+T 7900 2750 5 8 0 1 0 0 1
+pinseq=20
+T 7700 2750 9 10 0 1 0 6 1
+pintype=pas
+}
+P 8100 3100 7800 3100 1 0 0
+{
+T 7750 3100 9 10 1 1 0 7 1
+pinlabel=P2.2/UCB0CLK
+T 7900 3150 5 8 1 1 0 0 1
+pinnumber=21
+T 7900 3150 5 8 0 1 0 0 1
+pinseq=21
+T 7700 3150 9 10 0 1 0 6 1
+pintype=pas
+}
+P 8100 3500 7800 3500 1 0 0
+{
+T 7750 3500 9 10 1 1 0 7 1
+pinlabel=P1.6/UCB0SIMO/UCB0SDA/TA0.0
+T 7900 3550 5 8 1 1 0 0 1
+pinnumber=22
+T 7900 3550 5 8 0 1 0 0 1
+pinseq=22
+T 7700 3550 9 10 0 1 0 6 1
+pintype=pas
+}
+P 8100 3900 7800 3900 1 0 0
+{
+T 7750 3900 9 10 1 1 0 7 1
+pinlabel=P1.7/UCB0SOMI/UCB0SCL/TA1.0
+T 7900 3950 5 8 1 1 0 0 1
+pinnumber=23
+T 7900 3950 5 8 0 1 0 0 1
+pinseq=23
+T 7700 3950 9 10 0 1 0 6 1
+pintype=pas
+}
+P 8100 4300 7800 4300 1 0 0
+{
+T 7750 4300 9 10 1 1 0 7 1
+pinlabel=VCORE
+T 7900 4350 5 8 1 1 0 0 1
+pinnumber=24
+T 7900 4350 5 8 0 1 0 0 1
+pinseq=24
+T 7700 4350 9 10 0 1 0 6 1
+pintype=pas
+}
+P 8100 4700 7800 4700 1 0 0
+{
+T 7750 4700 9 10 1 1 0 7 1
+pinlabel=DVSS
+T 7900 4750 5 8 1 1 0 0 1
+pinnumber=25
+T 7900 4750 5 8 0 1 0 0 1
+pinseq=25
+T 7700 4750 9 10 0 1 0 6 1
+pintype=pas
+}
+P 8100 5100 7800 5100 1 0 0
+{
+T 7750 5100 9 10 1 1 0 7 1
+pinlabel=DVCC
+T 7900 5150 5 8 1 1 0 0 1
+pinnumber=26
+T 7900 5150 5 8 0 1 0 0 1
+pinseq=26
+T 7700 5150 9 10 0 1 0 6 1
+pintype=pas
+}
+P 8100 5500 7800 5500 1 0 0
+{
+T 7750 5500 9 10 1 1 0 7 1
+pinlabel=P2.3/TA0.0/A6/CD10
+T 7900 5550 5 8 1 1 0 0 1
+pinnumber=27
+T 7900 5550 5 8 0 1 0 0 1
+pinseq=27
+T 7700 5550 9 10 0 1 0 6 1
+pintype=pas
+}
+P 8100 5900 7800 5900 1 0 0
+{
+T 7750 5900 9 10 1 1 0 7 1
+pinlabel=P2.4/TA1.0/A7/CD11
+T 7900 5950 5 8 1 1 0 0 1
+pinnumber=28
+T 7900 5950 5 8 0 1 0 0 1
+pinseq=28
+T 7700 5950 9 10 0 1 0 6 1
+pintype=pas
+}
