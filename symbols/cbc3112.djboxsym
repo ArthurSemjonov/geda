@@ -1,0 +1,40 @@
+[labels]
+
+CBC3112
+refdes=U?
+! copryright=2012 Andrew Orr
+! author=Andrew Orr
+! uselicense=unlimited
+! distlicense=GPL
+! device=CBC3112
+! description=EnerChip CC
+! footprint=7mm x 7mm 20 pin DFN
+
+--square
+
+[left]
+
+1  VBAT
+2  VOUT
+3  VDD
+4  VCHG
+5  ENABLE
+6  VMODE
+7  GND
+8  RESET
+9  CP
+10 CN
+
+[right]
+
+20 NC
+19 NC
+18 NC
+17 NC
+16 NC
+15 NC
+14 GND
+13 NC
+12 NC
+11 NC
+
